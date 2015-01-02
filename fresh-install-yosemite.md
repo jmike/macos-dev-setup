@@ -4,7 +4,7 @@
 
 1. Open the App Store from your existing Mac installation
 2. Search and download Mac OSX Yosemite
-3. Once Yosemite has been downloaded, the installer will run automatically - dismiss the installer window and proceed
+3. Once Yosemite has been downloaded, the installer will run automatically; dismiss the installer window and proceed
 
 #### B. Burn Yosemite on a USB disk
 
@@ -15,7 +15,7 @@
     ls -la /Volumes/
     ```
 
-3. Run the following command, replacing _/Volumes/Untitled_ with the name of your volume
+3. Run the following command, replacing `/Volumes/Untitled` with the name of your volume
     ```bash
     sudo /Applications/Install\ OS\ X\ Yosemite.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --applicationpath /Applications/Install\ OS\ X\ Yosemite.app --nointeraction
     ```
@@ -24,4 +24,4 @@
   
 1. Plug the USB key to your machine
 2. Go to `System Settings > Startup Disk`
-3. Select the USB disk, i.e. something along the lines of _Install OS X Yosemite 10.10.1_, and hit _Restart_
+3. Select the USB disk, i.e. something along the lines of `Install OS X Yosemite 10.10.1`, and hit `Restart`
