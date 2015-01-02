@@ -22,5 +22,6 @@
 
 #### C. Install Yosemite
   
-1. Plug the USB key and restart
-2. Follow the installer instructions
+1. Plug the USB key to your machine
+2. Go to `System Settings > Startup Disk`
+3. Select the USB disk, i.e. something along the lines of _Install OS X Yosemite 10.10.1_, and hit _Restart_
