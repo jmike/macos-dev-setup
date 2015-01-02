@@ -22,5 +22,5 @@
 
 #### C. Install Yosemite
   
-1. Plug the USB key and restart;
-2. Follow the installer instructions.
+1. Plug the USB key and restart
+2. Follow the installer instructions
