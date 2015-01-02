@@ -13,5 +13,4 @@ MySQL preference pane enables you to start, stop, and control MySQL server withi
 #### C. Install MySQL Workbench to manage your databases
 
 1. Visit [http://dev.mysql.com/downloads/tools/workbench/](http://dev.mysql.com/downloads/tools/workbench/)
-2. Download the latest .dmg archive
-3. Install as usual
+2. Download and install the latest .dmg archive
