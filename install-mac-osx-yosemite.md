@@ -1,14 +1,14 @@
-# Fresh-install Mac OSX Yosemite
+# Install Mac OSX Yosemite
 
 #### A. Download Yosemite from the App Store
 
-1. Open the App Store from your existing Mac installation
+1. Open the App Store from an existing Mac installation
 2. Search and download Mac OSX Yosemite
 3. Once Yosemite has been downloaded, the installer will run automatically; dismiss the installer window and proceed
 
 #### B. Burn Yosemite on a USB disk
 
-1. Insert a blank USB disk (>= 8GB) to your computer
+1. Insert a blank USB disk (>= 8GB) to your machine
 2. Detect the volume name in terminal
 
     ```bash
