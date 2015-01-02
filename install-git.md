@@ -12,7 +12,7 @@ brew install git
 
 #### B. Configure Git on your Mac
 
-1. Create the configuration files;
+1. Create the configuration files
     
     ```bash
     touch ~/.bash_profile
@@ -20,9 +20,9 @@ brew install git
     touch ~/.git-prompt.sh
     ```
 
-2. Populate `.git-completion.bash` with contents located here: [https://github.com/git/git/blob/master/contrib/completion/git-completion.bash](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash);
-3. Populate `.git-prompt.sh` with contents located here: [https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh);
-4. Update permissions of `.git-completion.bash` and `.git-prompt.sh`, respectively;
+2. Populate `.git-completion.bash` with contents located here: [https://github.com/git/git/blob/master/contrib/completion/git-completion.bash](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash)
+3. Populate `.git-prompt.sh` with contents located here: [https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh)
+4. Update permissions of `.git-completion.bash` and `.git-prompt.sh`, respectively
     
     ```bash
     chmod 755 ~/.git-completion.bash
@@ -66,8 +66,8 @@ brew install git
 
 #### C. Restart your terminal
 
-1. Restart your terminal for the settings to take effect;
-2. Verify that you have the latest git installed;
+1. Restart your terminal for the settings to take effect
+2. Verify that you have the latest git installed
     
     ```bash
     git --version
