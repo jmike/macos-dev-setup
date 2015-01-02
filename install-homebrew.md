@@ -1,3 +1,11 @@
 # Install Homebrew
 
-Follow the instructions found in [http://brew.sh/](http://brew.sh/).
+Homebrew is an excellent open-source solution to install missing packages on your Mac.
+
+#### Quick setup
+
+```bash
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+Warning: do not use `sudo`.
