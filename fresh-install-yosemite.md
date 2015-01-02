@@ -15,7 +15,7 @@
     ls -la /Volumes/
     ```
 
-3. Run the following command, replacing "Untitled" with the name of your volume
+3. Run the following command, replacing _Volumes/Untitled_ with the name of your volume
     ```bash
     sudo /Applications/Install\ OS\ X\ Yosemite.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --applicationpath /Applications/Install\ OS\ X\ Yosemite.app --nointeraction
     ```
