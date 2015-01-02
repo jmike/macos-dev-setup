@@ -1,6 +1,6 @@
 # Mac-OSX-Ninja-Setup
 
-The best practices on a brand new Mac OSX setup for Web Devs.
+Best practices to setup Mac OSX for ninja devs.
 
 #### Table of Contents
 
