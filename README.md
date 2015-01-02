@@ -1,6 +1,6 @@
 # Mac-OSX-Ninja-Setup
 
-Best practices to setup Mac OSX for ninja devs.
+Best practices to setup Mac OSX like a ninja dev.
 
 #### Table of Contents
 
