@@ -8,7 +8,7 @@
 
 #### B. Setup MySQL preference pane
 
-MySQL preference pane enables you to start, stop, and control MySQL server within System Settings. Follow the instructions here: [http://dev.mysql.com/doc/refman/5.6/en/macosx-installation-prefpane.html](http://dev.mysql.com/doc/refman/5.6/en/macosx-installation-prefpane.html)
+MySQL preference pane enables you to start, stop, and control MySQL server within System Settings. To install MySQL preference pane ollow the instructions here: [http://dev.mysql.com/doc/refman/5.6/en/macosx-installation-prefpane.html](http://dev.mysql.com/doc/refman/5.6/en/macosx-installation-prefpane.html)
 
 #### C. Install MySQL Workbench to manage your databases
 
