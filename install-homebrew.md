@@ -1,6 +1,6 @@
 # Install Homebrew
 
-Homebrew is an excellent open-source solution to install missing packages on your Mac.
+Homebrew is an excellent open-source solution to install dev packages on your Mac.
 
 #### Quick setup
 
@@ -8,4 +8,8 @@ Homebrew is an excellent open-source solution to install missing packages on you
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-Warning: do not use `sudo`.
+After Homebrew has been installed, run the following command:
+
+```bash
+brew doctor
+```
