@@ -65,3 +65,28 @@ The DocBlockr package provides creation and code completion of comment blocks.
 3. Find _SideBarEnhancements_ and hit _Enter_.
 
 #### Configure Sublime Text
+
+```json
+{
+	"color_scheme": "Packages/User/base16-ocean.dark (SL).tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"fallback_encoding": "UTF-8",
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"jsdocs_align_tags": "no",
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"rulers":
+	[
+		120
+	],
+	"tab_size": 2,
+	"theme": "Spacegray.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}
+
+```
