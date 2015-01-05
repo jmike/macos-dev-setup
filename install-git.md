@@ -2,17 +2,17 @@
 
 Git comes pre-installed on the latest Mac OSX distributions. However, Apple's bundled version of Git is not as well-maintained as the official Git repo.
 
-#### A. Install Git from Homebrew
+#### Install Git from Homebrew
 
-If you don't yet have Homebrew installed, read the [Install Homebrew](install-homebrew.md) guide. Also make sure you have already installed Apple XCode from the App Store.
+If you don't yet have Homebrew installed, read the [Install Homebrew](install-homebrew.md) guide. Also make sure you have installed Apple XCode from the App Store.
 
 ```bash
 brew install git
 ```
 
-#### B. Configure Git on your Mac
+#### Configure Git on your Mac
 
-1. Create the configuration files
+1. Create the configuration files;
     
     ```bash
     touch ~/.bash_profile
@@ -20,9 +20,9 @@ brew install git
     touch ~/.git-prompt.sh
     ```
 
-2. Populate `.git-completion.bash` with contents located here: [https://github.com/git/git/blob/master/contrib/completion/git-completion.bash](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash)
-3. Populate `.git-prompt.sh` with contents located here: [https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh)
-4. Update permissions of `.git-completion.bash` and `.git-prompt.sh`, respectively
+2. Populate `.git-completion.bash` with contents located here: [https://github.com/git/git/blob/master/contrib/completion/git-completion.bash](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash);
+3. Populate `.git-prompt.sh` with contents located here: [https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh);
+4. Update permissions of `.git-completion.bash` and `.git-prompt.sh`, respectively;
     
     ```bash
     chmod 755 ~/.git-completion.bash
@@ -64,10 +64,10 @@ brew install git
     alias gg='git status -s'
     ```
 
-#### C. Restart your terminal
+#### Restart your terminal
 
-1. Restart your terminal for the settings to take effect
-2. Verify that you have the latest git installed
+1. Restart your terminal for the settings to take effect;
+2. Verify that you have the latest git installed.
     
     ```bash
     git --version
