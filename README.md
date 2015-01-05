@@ -9,5 +9,6 @@ Best practices to setup Mac OSX like a ninja dev.
 * [Setup the Terminal](setup-terminal.md)
 * [Install Homebrew](install-homebrew.md)
 * [Install Git](install-git.md)
+* [Install Node.js](install-node-npm.md)
 * [Install MySQL](install-mysql.md)
 * [Install PostgreSQL](install-postgres.md)
