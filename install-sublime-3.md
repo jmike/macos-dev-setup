@@ -71,7 +71,7 @@ The DocBlockr package provides creation and code completion of comment blocks.
 
 	```json
 	{
-		"color_scheme": "Packages/User/base16-ocean.dark (SL).tmTheme",
+		"color_scheme": "Packages/User/SublimeLinter/base16-ocean.dark (SL).tmTheme",
 		"ensure_newline_at_eof_on_save": true,
 		"fallback_encoding": "UTF-8",
 		"font_size": 14,
