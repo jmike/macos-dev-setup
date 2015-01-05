@@ -36,13 +36,13 @@ Once Mac OSX Yosemite is installed, you 'd want to change the privacy settings t
     1. Go to `System Settings > Security & Privacy > FileVault`
     2. Turn on FileVault; make sure you don't share your encryption key with Apple (beats the purpose)
 
-2. Disable spotlight suggestions
+2. Disable Spotlight Suggestions
   1. Go to `System Preferences > Spotlight > Search Results`
   2. Disable _Spotlight Suggestions_ and _Bing Web Searches_; you can disable more categories if you like (I only have Applications and System Settings categories)
 
-3. Disable safari spotlight suggestions
+3. Disable Safari Spotlight Suggestions
   
-    You would think that you already disabled _Spotlight Suggestions_. You are wrong.
+    You would think that you already disabled Spotlight Suggestions; you are wrong.
   
   1. Go to `Safari > Preferences > Search`
   2. Uncheck the _Include Spotlight Suggestions_ option
