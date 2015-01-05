@@ -33,9 +33,16 @@
 Once Mac OSX Yosemite is installed, you 'd want to change the privacy settings to prevent your system from sending Apple all kind of data.
 
 1. Encypt your HDD
-  
-    Go to `System Settings > Security & Privacy > FileVault` and turn on FileVault; make sure you don't share your encryption key with Apple (beats the purpose).
+    1. Go to `System Settings > Security & Privacy > FileVault`
+    2. Turn on FileVault; make sure you don't share your encryption key with Apple (beats the purpose)
 
 2. Disable spotlight suggestions
-  1. Go to `System Preferences > Spotlight > Search Results` and disable _Spotlight Suggestions_ and _Bing Web Searches_
-  2. Go to `Safari > Preferences > Search` and uncheck the _Include Spotlight Suggestions_ option
+  1. Go to `System Preferences > Spotlight > Search Results`
+  2. Disable _Spotlight Suggestions_ and _Bing Web Searches_; you can disable more categories if you like (I only have Applications and System Settings categories)
+
+3. Disable safari spotlight suggestions
+  
+    You would think that you already disabled _Spotlight Suggestions_. You are wrong.
+  
+  1. Go to `Safari > Preferences > Search`
+  2. Uncheck the _Include Spotlight Suggestions_ option
