@@ -19,7 +19,7 @@ You might want to consider disabling more Spotlight Search categories. A good su
 
 #### Disable Safari Spotlight Suggestions
   
-You would think that by disabling Spotlight Suggestions you are done with Spotlight  - you are wrong.
+You might think that by disabling Spotlight Suggestions you are done  - you are wrong.
   
 1. Go to `Safari > Preferences > Search`;
 2. Uncheck the _Include Spotlight Suggestions_ option.
