@@ -28,9 +28,9 @@
 3. Select the USB disk, i.e. something along the lines of _Install OS X Yosemite 10.10.1_, and hit _Restart_
 4. Follow the instructions on screen (be patient, this will take a couple of hours)
 
-#### D. Install latest System Updates
+#### D. Install System Updates
 
-Before doing anything with your new OS, make sure you install all the latest system updates.
+Before doing anything with your new OS, make sure you install latest system updates.
 
 1. Open App Store
 2. Go to `Updates`
