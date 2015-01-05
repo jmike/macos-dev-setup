@@ -10,7 +10,7 @@ The next step is to install the Package Control system, as it isn't a part of th
 
 The easiest way to install is using Sublime Package Control, where Spacegray is listed as Theme - Spacegray.
 
-1. Open the _Command Palette_ of Sublime Text (using menu item `Tools > Command Palette` or hitting `Command + Shift + P`);
+1. Go to `Sublime Text 3 > Tools > Command Palette` or open Sublime Text 3 and hit `Command + Shift + P`;
 2. Choose _Package Control: Install Package_;
 3. Find _Theme - Spacegray_ and hit _Enter_.
 
@@ -18,7 +18,7 @@ The easiest way to install is using Sublime Package Control, where Spacegray is 
 
 The easiest way to install is using Sublime Package Control, where Spacegray is listed as Theme - Spacegray.
 
-1. Open the _Command Palette_ of Sublime Text;
+1. Open Sublime Text 3 and hit `Command + Shift + P`;
 2. Choose _Package Control: Install Package_;
 3. Find _Theme - Spacegray_ and hit _Enter_.
 
@@ -26,13 +26,13 @@ The easiest way to install is using Sublime Package Control, where Spacegray is 
 
 The DocBlockr package provides creation and code completion of comment blocks.
 
-1. Open the _Command Palette_ of Sublime Text;
+1. Open Sublime Text 3 and hit `Command + Shift + P`;
 2. Choose _Package Control: Install Package_;
 3. Find _DocBlockr_ and hit _Enter_.
 
 #### Install SublimeLinter
 
-1. Open the _Command Palette_ of Sublime Text;
+1. Open Sublime Text 3 and hit `Command + Shift + P`;
 2. Choose _Package Control: Install Package_;
 3. Find _SublimeLinter_ and hit _Enter_.
 
@@ -48,45 +48,47 @@ The DocBlockr package provides creation and code completion of comment blocks.
 #### Install SublimeLinter-jshint
 
 1. Make sure you have installed SublimeLinter and jshint;
-2. Open the _Command Palette_ of Sublime Text;
+2. Open Sublime Text 3 and hit `Command + Shift + P`;
 3. Choose _Package Control: Install Package_;
 4. Find _SublimeLinter-jshint_ and hit _Enter_.
 
 #### Install TernJS
 
-1. Open the _Command Palette_ of Sublime Text;
+1. Open Sublime Text 3 and hit `Command + Shift + P`;
 2. Choose _Package Control: Install Package_;
 3. Find _TernJS_ and hit _Enter_.
 
 #### Install SideBarEnhancements
 
-1. Open the _Command Palette_ of Sublime Text;
+1. Open Sublime Text 3 and hit `Command + Shift + P`;
 2. Choose _Package Control: Install Package_;
 3. Find _SideBarEnhancements_ and hit _Enter_.
 
 #### Configure Sublime Text
 
-```json
-{
-	"color_scheme": "Packages/User/base16-ocean.dark (SL).tmTheme",
-	"ensure_newline_at_eof_on_save": true,
-	"fallback_encoding": "UTF-8",
-	"font_size": 14,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"jsdocs_align_tags": "no",
-	"line_padding_bottom": 1,
-	"line_padding_top": 1,
-	"rulers":
-	[
-		120
-	],
-	"tab_size": 2,
-	"theme": "Spacegray.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
-}
+1. Go to `Sublime Text 3 > Preferences > Settings - User`;
+2. Copy past the following settings:
 
-```
+	```json
+	{
+		"color_scheme": "Packages/User/base16-ocean.dark (SL).tmTheme",
+		"ensure_newline_at_eof_on_save": true,
+		"fallback_encoding": "UTF-8",
+		"font_size": 14,
+		"ignored_packages":
+		[
+			"Vintage"
+		],
+		"jsdocs_align_tags": "no",
+		"line_padding_bottom": 1,
+		"line_padding_top": 1,
+		"rulers":
+		[
+			120
+		],
+		"tab_size": 2,
+		"theme": "Spacegray.sublime-theme",
+		"translate_tabs_to_spaces": true,
+		"trim_trailing_white_space_on_save": true
+	}
+	```
