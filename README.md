@@ -6,6 +6,7 @@ Best practices to setup Mac OSX like a ninja dev.
 
 * [Install Mac OSX Yosemite](install-mac-osx-yosemite.md)
 * [Secure Mac OSX Yosemite](secure-mac-osx-yosemite.md)
+* [Setup your Terminal](setup-terminal.md)
 * [Install Homebrew](install-homebrew.md)
 * [Install Git](install-git.md)
 * [Install MySQL](install-mysql.md)
