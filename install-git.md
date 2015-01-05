@@ -2,15 +2,27 @@
 
 Git comes pre-installed on the latest Mac OSX distributions. However, Apple's bundled version of Git is not as well-maintained as the official Git repo.
 
-#### Install Git from Homebrew
+#### Install via Homebrew
 
-If you don't yet have Homebrew installed, read the [Install Homebrew](install-homebrew.md) guide. Also make sure you have installed Apple XCode from the App Store.
+1. Make sure you have installed Homebrew on your system - if not, read the [Install Homebrew](install-homebrew.md) guide;
 
-```bash
-brew install git
-```
+    ```bash
+    which brew
+    ```
 
-#### Configure Git on your Mac
+2. Open terminal and run the following command:
+
+    ```bash
+    brew install git
+    ```
+
+3. Verify git has been installed.
+
+    ```bash
+    git --version
+    ```
+
+#### Configure Git
 
 1. Create the configuration files;
     
@@ -64,11 +76,4 @@ brew install git
     alias gg='git status -s'
     ```
 
-#### Restart your terminal
-
-1. Restart your terminal for the settings to take effect;
-2. Verify that you have the latest git installed.
-    
-    ```bash
-    git --version
-    ```
+Please note: You need to restart your terminal for the settings to take effect.
