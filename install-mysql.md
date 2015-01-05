@@ -1,16 +1,18 @@
 # Install MySQL
 
-#### A. Install MySQL database
+#### Install MySQL Database
 
-1. Visit [http://dev.mysql.com/downloads/mysql/](http://dev.mysql.com/downloads/mysql/)
-2. Download the latest .dmg archive for your Mac
-3. Open the downloaded .dmg archive and double click the homonymous .pkg file
+1. Visit [http://dev.mysql.com/downloads/mysql/](http://dev.mysql.com/downloads/mysql/);
+2. Download the latest .dmg archive;
+3. Open the downloaded .dmg archive and double click the homonymous .pkg file.
 
-#### B. Setup MySQL preference pane
+#### Setup MySQL Preference Pane
+
+Please note: Latest versions of the MySQL installer, setup the preference pane automatically.
 
 MySQL preference pane enables you to start, stop, and control MySQL server within System Settings. To install MySQL preference pane follow the instructions here: [http://dev.mysql.com/doc/refman/5.6/en/macosx-installation-prefpane.html](http://dev.mysql.com/doc/refman/5.6/en/macosx-installation-prefpane.html)
 
-#### C. Install MySQL Workbench to manage MySQL
+#### Install MySQL Workbench
 
-1. Visit [http://dev.mysql.com/downloads/tools/workbench/](http://dev.mysql.com/downloads/tools/workbench/)
-2. Download and install the latest .dmg archive
+1. Visit [http://dev.mysql.com/downloads/tools/workbench/](http://dev.mysql.com/downloads/tools/workbench/);
+2. Download and install the latest .dmg archive.
