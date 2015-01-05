@@ -28,7 +28,15 @@
 3. Select the USB disk, i.e. something along the lines of _Install OS X Yosemite 10.10.1_, and hit _Restart_
 4. Follow the instructions on screen (be patient, this will take a couple of hours)
 
-#### D. Fix Privacy Settings
+#### D. Install latest System Updates
+
+Before doing anything with your new OS, make sure you install all the latest system updates.
+
+1. Open App Store
+2. Go to `Updates`
+3. Install all system updates
+
+#### E. Fix Privacy Settings
 
 Once Mac OSX Yosemite is installed, you 'd want to change the privacy settings to prevent your system from sending Apple all kind of data.
 
