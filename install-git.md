@@ -24,6 +24,20 @@ Git comes pre-installed on the latest Mac OSX distributions. However, Apple's bu
 
 #### Configure Git
 
+1. Set Git editor;
+
+  ```bash
+  git config --global core.editor "nano"
+  ```
+  
+2. Set Git default push behaviour;
+
+  ```bash
+  git config --global push.default simple
+  ```
+
+#### Add Git completion in bash
+
 1. Create the configuration files;
     
     ```bash
