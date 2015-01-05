@@ -38,7 +38,7 @@ Git comes pre-installed on the latest Mac OSX distributions. However, Apple's bu
 
 #### Add Git completion in bash
 
-1. Create the configuration files;
+1. Create configuration files;
     
     ```bash
     touch ~/.bash_profile
@@ -46,14 +46,15 @@ Git comes pre-installed on the latest Mac OSX distributions. However, Apple's bu
     touch ~/.git-prompt.sh
     ```
 
-2. Populate `.git-completion.bash` with contents located here: [https://github.com/git/git/blob/master/contrib/completion/git-completion.bash](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash);
-3. Populate `.git-prompt.sh` with contents located here: [https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh);
-4. Update permissions of `.git-completion.bash` and `.git-prompt.sh`, respectively;
+2. Populate `.git-completion.bash` with [https://github.com/git/git/blob/master/contrib/completion/git-completion.bash](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash);
+3. Populate `.git-prompt.sh` with [https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh);
+4. Update permissions of `.git-completion.bash` and `.git-prompt.sh`;
     
     ```bash
     chmod 755 ~/.git-completion.bash
     chmod 755 ~/.git-prompt.sh
     ```
+
 5. Populate `.bash_profile`, as follows:
 
     ```bash
