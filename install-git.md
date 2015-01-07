@@ -35,6 +35,13 @@ Git comes pre-installed on the latest Mac OSX distributions. However, Apple's bu
   ```bash
   git config --global push.default simple
   ```
+  
+3. Set Git user;
+
+  ```bash
+  git config --global user.name "Your Name"
+  git config --global user.email you@example.com
+  ```
 
 #### Add Git completion in bash
 
