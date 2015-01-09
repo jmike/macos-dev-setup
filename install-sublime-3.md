@@ -14,14 +14,6 @@ The easiest way to install is using Sublime Package Control, where Spacegray is 
 2. Choose _Package Control: Install Package_;
 3. Find _Theme - Spacegray_ and hit _Enter_.
 
-#### Install Spacegray theme
-
-The easiest way to install is using Sublime Package Control, where Spacegray is listed as Theme - Spacegray.
-
-1. Open Sublime Text 3 and hit `Command + Shift + P`;
-2. Choose _Package Control: Install Package_;
-3. Find _Theme - Spacegray_ and hit _Enter_.
-
 #### Install DocBlockr
 
 The DocBlockr package provides creation and code completion of comment blocks.
