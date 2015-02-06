@@ -8,7 +8,7 @@
 
 #### Setup MySQL Preference Pane
 
-Please note: Latest versions of the MySQL installer, setup the preference pane automatically.
+Please note: Latest versions of the MySQL installer setup the preference pane automatically. Check if you already have the preference pane installed - if true then skip this step.
 
 MySQL preference pane enables you to start, stop, and control MySQL server within System Settings. To install MySQL preference pane follow the instructions here: [http://dev.mysql.com/doc/refman/5.6/en/macosx-installation-prefpane.html](http://dev.mysql.com/doc/refman/5.6/en/macosx-installation-prefpane.html)
 
