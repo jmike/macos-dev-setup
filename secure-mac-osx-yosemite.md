@@ -34,3 +34,13 @@ You might think that by disabling Spotlight Suggestions you are done  - you are 
 6. Hit _OK_.
   
 You might want to repeat the process for your _Ethernet_ interface.
+
+#### Enable Find My Mac (for corporate laptops)
+
+If you are using a laptop that belongs to your company you might want to enable Find My Mac in order to track it, remotely lock it, and send messages to your Mac’s screen.
+
+1. Go to `System Preferences > iCloud`;
+2. Log in to iCloud;
+3. Select the Find My Mac checkbox.
+
+If the worst happens, you can track your Mac via iCloud.com or the Find My iPhone app on your iPad/iPhone.
