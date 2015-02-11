@@ -93,7 +93,7 @@ The DocBlockr package provides creation and code completion of comment blocks.
 
 #### Make Sublime Text available in terminal
 
-Sublime Text 3 ships with a CLI called subl. Create a symbolic link to your CLI and you are done.
+Sublime Text 3 ships with a CLI called `subl`. Create a symbolic link to your CLI and you are done.
 
 ```bash
 sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
