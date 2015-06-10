@@ -14,3 +14,4 @@ Best practices to setup Mac OSX like a ninja dev.
 * [Install MySQL](install-mysql.md)
 * [Install PostgreSQL](install-postgres.md)
 * [Install Sublime Text 3](install-sublime-3.md)
+* [Install Heroku Toolbelt](install-heroku-toolbelt.md)
