@@ -8,6 +8,7 @@ Best practices to setup Mac OSX like a ninja dev.
 * [Secure Mac OSX Yosemite](secure-mac-osx-yosemite.md)
 * [Setup the Terminal](setup-terminal.md)
 * [Setup SSH keys](setup-ssh-keys.md)
+* [Create Self Signed SSL certificate](install-self-signed-ssl.md)
 * [Install Homebrew](install-homebrew.md)
 * [Install Git](install-git.md)
 * [Install Node.js](install-node-npm.md)
