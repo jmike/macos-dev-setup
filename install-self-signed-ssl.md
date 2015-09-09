@@ -59,20 +59,20 @@ In addition, the guide will show you how to make Chrome *44.0.2403.125* Trust th
 	```/Applications/MAMP/conf/apache/httpd.conf```
 
 	set your listen port to 80 (near the top of the file)
-	
+
 	```Listen 80```
 
 
 	set your ServerName to localhost:80 (default is 8888)
-	
+
 	```ServerName localhost:80```
 
 	uncomment the line that includes the secure (SSL/TLS) connection con
-	
+
 	```Include /Applications/MAMP/conf/apache/extra/httpd-ssl.conf```
 
-	Save it and close. 
-	
+	Save it and close.
+
 3. Now open Apache's ssl conf file:
 
 	```/Applications/MAMP/conf/apache/extra/httpd-ssl.conf```
