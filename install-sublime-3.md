@@ -28,21 +28,26 @@ The DocBlockr package provides creation and code completion of comment blocks.
 2. Choose _Package Control: Install Package_;
 3. Find _SublimeLinter_ and hit _Enter_.
 
-#### Install jshint
+#### Install eslint
 
 1. Make sure you have already installed node.js and npm - if not, read the [Install node.js and npm](install-node-npm.md) guide;
-2. Install jshint by typing the following in a terminal:
+2. Install eslint by typing the following in a terminal:
   
   ```bash
-  sudo npm install -g jshint
+  sudo npm install -g eslint
   ```
+3. Install eslint-config-airbnb
 
-#### Install SublimeLinter-jshint
+  ```bash
+  npm install -g eslint-config-airbnb babel-eslint
+  ```
+  
+#### Install SublimeLinter-eslint
 
-1. Make sure you have installed SublimeLinter and jshint;
+1. Make sure you have installed SublimeLinter and eslint;
 2. Open Sublime Text 3 and hit `Command + Shift + P`;
 3. Choose _Package Control: Install Package_;
-4. Find _SublimeLinter-jshint_ and hit _Enter_.
+4. Find _SublimeLinter-contrib-eslint_ and hit _Enter_.
 
 #### Install TernJS
 
