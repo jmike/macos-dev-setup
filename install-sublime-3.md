@@ -32,16 +32,16 @@ The DocBlockr package provides creation and code completion of comment blocks.
 
 1. Make sure you have already installed node.js and npm - if not, read the [Install node.js and npm](install-node-npm.md) guide;
 2. Install eslint by typing the following in a terminal:
-  
+
   ```bash
   sudo npm install -g eslint
   ```
 3. Install eslint-config-airbnb
 
   ```bash
-  npm install -g eslint-config-airbnb babel-eslint
+  sudo npm install -g eslint-config-airbnb babel-eslint
   ```
-  
+
 #### Install SublimeLinter-eslint
 
 1. Make sure you have installed SublimeLinter and eslint;
