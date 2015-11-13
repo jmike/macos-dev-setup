@@ -6,13 +6,13 @@ Download and install Sublime Text from [http://www.sublimetext.com/3](http://www
 
 The next step is to install the Package Control system, as it isn't a part of the Sublime Text baseline. This involves cutting and pasting some Python code into the Sublime Text console. You can find further info at [https://packagecontrol.io/installation](https://packagecontrol.io/installation).
 
-#### Install Spacegray theme
+#### Install Material theme
 
-The easiest way to install is using Sublime Package Control, where Spacegray is listed as Theme - Spacegray.
+The easiest way to install is using Sublime Package Control, where the theme is listed as "Material Theme".
 
 1. Go to `Sublime Text 3 > Tools > Command Palette` or open Sublime Text 3 and hit `Command + Shift + P`;
 2. Choose _Package Control: Install Package_;
-3. Find _Theme - Spacegray_ and hit _Enter_.
+3. Find _Material Theme_ and hit _Enter_.
 
 #### Install DocBlockr
 
@@ -73,27 +73,32 @@ The DocBlockr package provides creation and code completion of comment blocks.
 2. Copy past the following settings:
 
 	```json
-  {
-    "color_scheme": "Packages/User/SublimeLinter/base16-ocean.dark (SL).tmTheme",
-    "ensure_newline_at_eof_on_save": true,
-    "fallback_encoding": "UTF-8",
-    "font_size": 14,
-    "ignored_packages":
-      [
-        "Vintage"
-      ],
-    "jsdocs_align_tags": "no",
-    "line_padding_bottom": 1,
-    "line_padding_top": 1,
-    "rulers":
-      [
-        120
-      ],
-    "tab_size": 2,
-    "theme": "Spacegray.sublime-theme",
-    "translate_tabs_to_spaces": true,
-    "trim_trailing_white_space_on_save": true
-  }
+{
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"fallback_encoding": "UTF-8",
+	"font_size": 15,
+	"ignored_packages":
+	[
+		"Markdown",
+		"Vintage"
+	],
+	"jsdocs_align_tags": "no",
+	"rulers":
+	[
+		120
+	],
+	"tab_size": 2,
+	"theme": "Material-Theme.sublime-theme",
+	"material_theme_contrast_mode": true,
+	"material_theme_tabs_separator": true,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"overlay_scroll_bars": "enabled",
+	"line_padding_top": 1,
+	"line_padding_bottom": 1,
+	"indent_guide_options": [ "draw_normal", "draw_active" ],   // Highlight active indent
+}
 	```
 
 #### Make Sublime Text available in terminal
