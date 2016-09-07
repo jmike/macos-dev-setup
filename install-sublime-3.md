@@ -77,27 +77,36 @@ The DocBlockr package provides creation and code completion of comment blocks.
 	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"fallback_encoding": "UTF-8",
-	"font_size": 15,
+	"font_size": 17,
 	"ignored_packages":
 	[
 		"Markdown",
 		"Vintage"
 	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
 	"jsdocs_align_tags": "no",
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"material_theme_contrast_mode": true,
+	"material_theme_tabs_separator": true,
+	"overlay_scroll_bars": "enabled",
 	"rulers":
 	[
 		120
 	],
 	"tab_size": 2,
 	"theme": "Material-Theme.sublime-theme",
-	"material_theme_contrast_mode": true,
-	"material_theme_tabs_separator": true,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"overlay_scroll_bars": "enabled",
-	"line_padding_top": 1,
-	"line_padding_bottom": 1,
-	"indent_guide_options": [ "draw_normal", "draw_active" ],   // Highlight active indent
+	"folder_exclude_patterns": [
+    ".svn", ".git", ".hg", "CVS",
+    "node_modules",
+    "bower_components"
+  ]
 }
 	```
 
