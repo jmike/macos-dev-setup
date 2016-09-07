@@ -16,3 +16,4 @@ Best practices to setup Mac OSX like a ninja dev.
 * [Install PostgreSQL](install-postgres.md)
 * [Install Sublime Text 3](install-sublime-3.md)
 * [Install Heroku Toolbelt](install-heroku-toolbelt.md)
+* [Install GPGTools for OSX](http://notes.jerzygangi.com/the-best-pgp-tutorial-for-mac-os-x-ever/)
