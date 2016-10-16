@@ -4,8 +4,8 @@ Best practices to setup Mac OSX like a ninja dev.
 
 #### Table of Contents
 
-* [Install Mac OSX Yosemite](install-mac-osx-yosemite.md)
-* [Secure Mac OSX Yosemite](secure-mac-osx-yosemite.md)
+* [Install macOS Sierra](install-macos-sierra.md)
+* [Secure macOS Sierra](secure-macos-sierra.md)
 * [Setup the Terminal](setup-terminal.md)
 * [Setup SSH keys](setup-ssh-keys.md)
 * [Create Self Signed SSL certificate](install-self-signed-ssl.md)
