@@ -34,3 +34,13 @@
 2. Immediatelly press and hold the _Option_ key.
 3. Select the USB disk, i.e. something along the lines of _Install macOS Sierra_, and hit _enter_;
 4. Follow the instructions on screen (be patient, this will take a couple of hours).
+
+#### Format hard drive before Sierra installation
+
+While in the _Sierra_ installer environment you will be given the option to format your hard drive before installation. Do yourself a favour and choose _Mac OS Extended (Case-Sensitive, Journaled, Encrypted)_.
+
+- Why _Case-Sensitive_?
+Because _Unix_.
+
+- Why _Encrypted_?
+Because if you leave your data unencrypted and your machine gets stolen you are doomed.
