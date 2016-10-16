@@ -32,5 +32,5 @@
 
 1. Turn on or restart your machine.
 2. Immediatelly press and hold the _Option_ key.
-3. Select the USB disk, i.e. something along the lines of _Install OS X Yosemite_, and hit _enter_;
+3. Select the USB disk, i.e. something along the lines of _Install macOS Sierra_, and hit _enter_;
 4. Follow the instructions on screen (be patient, this will take a couple of hours).
