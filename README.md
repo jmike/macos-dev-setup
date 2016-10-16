@@ -10,7 +10,6 @@ Guidelines to setup macOS for ninja developers.
   
 ##### General
 * [Setup the Terminal](setup-terminal.md)
-* [Setup SSH keys](setup-ssh-keys.md)
 * [Create Self Signed SSL certificate](install-self-signed-ssl.md)
 * [Install Homebrew](install-homebrew.md)
 * [Install GPGTools for OSX](http://notes.jerzygangi.com/the-best-pgp-tutorial-for-mac-os-x-ever/)
