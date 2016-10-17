@@ -11,7 +11,7 @@ Guidelines to setup macOS for ninja developers.
 ##### General
 * [Setup the Terminal](setup-terminal.md)
 * [Install Homebrew](install-homebrew.md)
-* [Install GPGTools for OSX](http://notes.jerzygangi.com/the-best-pgp-tutorial-for-mac-os-x-ever/)
+* [Setup PGP](setup-pgp.md)
   
 ##### Version Control Systems
 * [Install Git](install-git.md)
