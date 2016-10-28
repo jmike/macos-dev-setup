@@ -26,3 +26,10 @@
 | OpenPGP: Encrypt Selection | ⌃⌥⌘- |
 | OpenPGP: Sign Selection | ⌃⌥⌘[ |
 | OpenPGP: Verify Signature of Selection | ⌃⌥⌘[ |
+
+#### Create new PGP Key pair
+
+* Open _GPG Keychain_ that should be already installed in your system;
+* Click _New_ menu button from the top left;
+* Type in your full name and email address. Check the box that reads _Upload public key_ and enter a secure passphrase twice under _Advanced options_.
+* Hit _Generate Key_.
