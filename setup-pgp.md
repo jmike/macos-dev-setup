@@ -29,7 +29,18 @@
 
 #### Create new PGP Key pair
 
-* Open _GPG Keychain_ that should be already installed in your system;
-* Click _New_ menu button from the top left;
-* Type in your full name and email address. Check the box that reads _Upload public key_ and enter a secure passphrase twice under _Advanced options_.
+* Open the _GPG Keychain_ app that should be already installed in your system;
+* Click _New_ from the top menu;
+* Type in your full name and email address.
+* Ccheck the _Upload public key_ option;
+* Enter a secure passphrase twice (x2) under _Advanced options_;
 * Hit _Generate Key_.
+
+#### Export a PGP Key
+
+* Open the _GPG Keychain_ app.
+* Select the key you want to export - it should now be highlighted.
+* Click _Export_ from the top menu;
+* Make sure to check the _Include secret key in exported file_ option, assuming you want to export a public/private key pair;
+* Select the directory to save the exported key;
+* Hit _Save_.
