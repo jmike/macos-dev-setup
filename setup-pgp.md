@@ -32,7 +32,7 @@
 * Open the _GPG Keychain_ app that should be already installed in your system;
 * Click _New_ from the top menu;
 * Type in your full name and email address.
-* Ccheck the _Upload public key_ option;
+* Check the _Upload public key_ option;
 * Enter a secure passphrase twice (x2) under _Advanced options_;
 * Hit _Generate Key_.
 
