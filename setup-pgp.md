@@ -8,10 +8,10 @@
 
 ###### Verify installation
 
-* Open a browser.
-* Write some text in a textbox.
-* Select and right click on the text.
-* You should be able to see several _OpenPGP_ options under the _Services_ menu.
+1. Open a browser.
+2. Write some text in a textbox.
+3. Select and right click on the text.
+4. You should be able to see several _OpenPGP_ options under the _Services_ menu.
 
 #### Set PGP Keyboard shortcuts
 
@@ -29,25 +29,25 @@
 
 #### Create new PGP Key pair
 
-* Open the _GPG Keychain_ app that should be already installed in your system;
-* Click _New_ from the top menu;
-* Type in your full name and email address.
-* Check the _Upload public key_ option;
-* Enter a secure passphrase twice (x2) under _Advanced options_;
-* Hit _Generate Key_.
+1. Open the _GPG Keychain_ app that should be already installed in your system;
+2. Click _New_ from the top menu;
+3. Type in your full name and email address.
+4. Check the _Upload public key_ option;
+5. Enter a secure passphrase twice (x2) under _Advanced options_;
+6. Hit _Generate Key_.
 
 #### Export a PGP Key
 
-* Open the _GPG Keychain_ app;
-* Select the key you want to export - it should now be highlighted;
-* Click _Export_ from the top menu;
-* Make sure to check the _Include secret key in exported file_ option, assuming you want to export a public/private key pair;
-* Select the directory to save the exported key;
-* Hit _Save_.
+1. Open the _GPG Keychain_ app;
+2. Select the key you want to export - it should now be highlighted;
+3. Click _Export_ from the top menu;
+4. Make sure to check the _Include secret key in exported file_ option, assuming you want to export a public/private key pair;
+5. Select the directory to save the exported key;
+6. Hit _Save_.
 
 #### Import a PGP Key
 
-* Open the _GPG Keychain_ app;
-* Click _Import_ from the top menu;
-* Select the file you want to import from your filesystem - it should normally end in `.asc`;
-* Hit _Open_.
+1. Open the _GPG Keychain_ app;
+2. Click _Import_ from the top menu;
+3. Select the file you want to import from your filesystem - it should normally end in `.asc`;
+4. Hit _Open_.
