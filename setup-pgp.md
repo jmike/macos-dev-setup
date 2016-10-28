@@ -38,9 +38,16 @@
 
 #### Export a PGP Key
 
-* Open the _GPG Keychain_ app.
-* Select the key you want to export - it should now be highlighted.
+* Open the _GPG Keychain_ app;
+* Select the key you want to export - it should now be highlighted;
 * Click _Export_ from the top menu;
 * Make sure to check the _Include secret key in exported file_ option, assuming you want to export a public/private key pair;
 * Select the directory to save the exported key;
 * Hit _Save_.
+
+#### Import a PGP Key
+
+* Open the _GPG Keychain_ app;
+* Click _Import_ from the top menu;
+* Select the file you want to import from your filesystem - it should normally end in `.asc`;
+* Hit _Open_.
