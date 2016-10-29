@@ -21,7 +21,7 @@ You might want to consider disabling more Spotlight Search categories. A good su
 
 #### Disable Safari Spotlight Suggestions
   
-You might think that by disabling Spotlight Suggestions you are done  - you are wrong.
+You might think that by disabling Spotlight Suggestions you are done - you are wrong.
   
 1. Go to `Safari > Preferences > Search`;
 2. Uncheck the _Include Spotlight Suggestions_ option.
@@ -39,10 +39,22 @@ You might want to repeat the process for your _Ethernet_ interface.
 
 #### Enable Find My Mac (optional)
 
-Enabling _Find My Mac_ is optional and mostly makes sense with remote devices, such as laptops.
+Enabling _Find My Mac_ is optional and mostly makes sense for remote devices, such as laptops.
 
 1. Go to `System Preferences > iCloud`;
 2. Log in to iCloud;
 3. Select the Find My Mac checkbox.
 
 If the worst happens and your machine get's stolen, you will be able to track it, remotely lock it, and send messages to its screen via iCloud.com or the _Find My iPhone_ app for iPad/iPhone.
+
+#### Allow Apps from Anywhere
+
+1. Disable the macOS assessment subsystem;
+
+  ```bash
+  sudo spctl --master-disable
+  ```  
+2. Go to `System Preferences > Security & Privacy`;
+3. Select `Anywhere` under the `Allow apps downloaded from` section.
+ 
+Beware! With great power comes great responsibility.
