@@ -1,19 +1,11 @@
-# Install node.js & npm
+# Install Node.js
 
-#### Install via Homebrew
+#### Install from the official website
 
-1. Make sure you have installed Homebrew on your system - if not, read the [Install Homebrew](install-homebrew.md) guide;
-
-    ```bash
-    which brew
-    ```
-
-2. Open terminal and run the following command:
-
-    ```bash
-    brew install node
-    ```
-
+1. Download Node.js bundled with npm from the official website: [https://nodejs.org/en/download/current](https://nodejs.org/en/download/current);
+   
+   If you don't know which file to download look for the _macOS Installer_.
+2. Execute the dowloaded file and follow the instructions;
 3. Verify node.js and npm have been installed.
 
     ```bash
