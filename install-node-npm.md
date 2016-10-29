@@ -1,6 +1,6 @@
 # Install Node.js
 
-#### Install from the official website
+#### Install Node.js and npm
 
 1. Visit [https://nodejs.org/en/download/current](https://nodejs.org/en/download/current);
 2. Download the latest Node.js dmg archive, which comes bundled with the npm client. If you don't know which file to download look for the "macOS Installer";
