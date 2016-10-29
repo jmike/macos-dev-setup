@@ -49,6 +49,8 @@ If the worst happens and your machine get's stolen, you will be able to track it
 
 #### Allow Apps from Anywhere
 
+MacOS Sierra prevents executing unsigned apps. This can be very annoying, especially if you are a developer and tend to experiment with new apps on a regular basis.
+
 1. Disable the macOS assessment subsystem;
 
   ```bash
