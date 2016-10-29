@@ -4,7 +4,7 @@
 
 1. Download Node.js bundled with npm from the official website: [https://nodejs.org/en/download/current](https://nodejs.org/en/download/current);
    
-   If you don't know which file to download look for the _macOS Installer_.
+   _If you don't know which file to download look for the "macOS Installer"._
 2. Execute the dowloaded file and follow the instructions;
 3. Verify node.js and npm have been installed.
 
