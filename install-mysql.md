@@ -20,11 +20,14 @@ To install MySQL preference pane follow the instructions here: [http://dev.mysql
 
 Please note: The latest versions of the MySQL installer install the preference pane automatically. Check if you already have the preference pane installed. Go to _System Preferences_ and look for a _MySQL_ icon.
 
+1. Go to `System Preferences > MySQL`;
+2. Uncheck the `Automatically Start MySQL Server on Startup` option.
+
 #### Reset your password
 
-1. Open the _MySQL preference pane_;
-2. Start the MySQL server;
-3. Run the following in a terminal;
+1. Go to `System Preferences > MySQL`;
+2. Make sure the MySQL server is running. If not, start the server;
+3. Run the following command in a terminal;
 
   ```bash
   mysql --user root --password
@@ -38,7 +41,7 @@ Please note: The latest versions of the MySQL installer install the preference p
   SET PASSWORD = PASSWORD('<new password/>');
   ```
 
-5. Enter `quit` to exit the MySQL cli session;
+5. Enter `quit` to exit the MySQL CLI session;
 6. Store password in a secure location, e.g. [KeePassX](https://www.keepassx.org/).
 
 #### Install MySQL Workbench
@@ -49,7 +52,7 @@ MySQL Workbench is the official MySQL client. It's free, as in beer, and quite p
 2. Download the latest .dmg archive;
 3. Open the downloaded file and follow instructions.
 
-#### Setup connection to local MySQL server
+#### Setup connection within MySQL Workbench to local MySQL server
 
 1. Run _MySQL Workbench_ that should already be installed in your system;
 2. Go to `Database > Manage Connections...` from the top menu;
