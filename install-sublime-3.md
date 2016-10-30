@@ -6,6 +6,20 @@
 2. Download the latest OSX build;
 3. Open the downloaded dmg archive and move _Sublime Text 3_ to the _Applications_ folder.
 
+### Make Sublime Text available in the terminal
+
+Make Sublime Text 3 available in the terminal by creating a symbolic link to its CLI.
+
+```bash
+sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+```
+
+You can now open a file from the terminal as follows:
+
+```bash
+subl file.ext
+```
+
 ### Enable external packages
 
 _Package Control_ system is used to install external packages (i.e. add-ons) to Sublime. Unfortunately it's not part of the Sublime Text core distribution. So you need to install it manually.
@@ -79,10 +93,45 @@ Material theme is on of the most polished themes for _Sublime Text_. The easiest
   }
   ```
 
-### Make Sublime Text available in terminal
+### Install packages for JavaScript development
 
-Sublime Text 3 ships with a CLI called `subl`. Create a symbolic link to your CLI and you are done.
+Make sure you have already installed the _Sublime Package Control_ system.
 
-```bash
-sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
-```
+##### Install DocBlockr
+
+The DocBlockr package provides creation and code completion of comment blocks.
+
+1. Open _Sublime Text 3_;
+2. Hit `Command + Shift + P`;
+3. Choose _Package Control: Install Package_;
+4. Find _DocBlockr_ and hit _Enter_.
+
+##### Install SublimeLinter (if not already installed)
+
+1. Open _Sublime Text 3_;
+2. Hit `Command + Shift + P`;
+3. Choose _Package Control: Install Package_;
+4. Find _SublimeLinter_ and hit _Enter_.
+
+##### Install ESLint
+
+1. Make sure you have already installed Node.js and npm - if not, follow the [Install node.js and npm](install-node-npm.md) guide;
+2. Install ESLint by typing the following in a terminal:
+
+  ```bash
+  sudo npm install -g eslint
+  ```
+3. Install eslint-config-airbnb
+
+  ```bash
+  sudo npm install -g eslint-config-airbnb eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-import
+  ```
+
+##### Install SublimeLinter-eslint
+
+1. Make sure you have installed SublimeLinter and eslint;
+2. Open _Sublime Text 3_;
+3. Hit `Command + Shift + P`;
+4. Choose _Package Control: Install Package_;
+5. Find _SublimeLinter-contrib-eslint_ and hit _Enter_.
+
