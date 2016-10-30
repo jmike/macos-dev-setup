@@ -82,43 +82,40 @@ The DocBlockr package provides creation and code completion of comment blocks.
 1. Go to `Sublime Text 3 > Preferences > Settings - User`;
 2. Copy past the following settings:
 
-	```json
+  ```json
 {
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
-	"ensure_newline_at_eof_on_save": true,
-	"fallback_encoding": "UTF-8",
-	"font_size": 17,
-	"ignored_packages":
-	[
-		"Markdown",
-		"Vintage"
-	],
-	"indent_guide_options":
-	[
-		"draw_normal",
-		"draw_active"
-	],
-	"jsdocs_align_tags": "no",
-	"line_padding_bottom": 1,
-	"line_padding_top": 1,
-	"material_theme_contrast_mode": true,
-	"material_theme_tabs_separator": true,
-	"overlay_scroll_bars": "enabled",
-	"rulers":
-	[
-		120
-	],
-	"tab_size": 2,
-	"theme": "Material-Theme.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-	"folder_exclude_patterns": [
+  "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+  "ensure_newline_at_eof_on_save": true,
+  "fallback_encoding": "UTF-8",
+  "font_size": 17,
+  "ignored_packages": [
+    "Markdown",
+    "Vintage"
+  ],
+  "indent_guide_options": [
+    "draw_normal",
+    "draw_active"
+  ],
+  "jsdocs_align_tags": "no",
+  "line_padding_bottom": 1,
+  "line_padding_top": 1,
+  "material_theme_contrast_mode": true,
+  "material_theme_tabs_separator": true,
+  "overlay_scroll_bars": "enabled",
+  "rulers": [
+    120
+  ],
+  "tab_size": 2,
+  "theme": "Material-Theme.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "folder_exclude_patterns": [
     ".svn", ".git", ".hg", "CVS",
     "node_modules",
     "bower_components"
   ]
 }
-	```
+  ```
 
 ##### Make Sublime Text available in terminal
 
