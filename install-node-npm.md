@@ -14,3 +14,22 @@
     ```bash
     npm --version
     ```
+
+#### Login to npm
+
+If you are planning to publishing modules to the npm registry you should login with your npm account.
+
+1. Visit [https://www.npmjs.com/signup](https://www.npmjs.com/signup) and create a npm account. Skip this step if you already have a npm account;
+2. Login to npm from your machine;
+
+    ```bash
+    npm login
+    ```
+
+3. Verify you are logged in to npm.
+
+    ```bash
+    npm whoami
+    ```
+    
+    You should be able to see your username displayed in the terminal.
