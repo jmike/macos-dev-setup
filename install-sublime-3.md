@@ -41,17 +41,15 @@ Material theme is on of the most polished themes for _Sublime Text_. The easiest
 
 ##### Install SideBarEnhancements
 
-1. Open _Sublime Text 3_;
-2. Hit `Command + Shift + P`;
-3. Choose _Package Control: Install Package_;
-4. Find _SideBarEnhancements_ and hit _Enter_.
+1. Open _Sublime Text 3_ and hit `Command + Shift + P`;
+2. Choose _Package Control: Install Package_;
+3. Find _SideBarEnhancements_ and hit _Enter_.
 
 ##### Install TrailingSpaces
 
-1. Open _Sublime Text 3_;
-2. Hit `Command + Shift + P`;
-3. Choose _Package Control: Install Package_;
-4. Find _TrailingSpaces_ and hit _Enter_.
+1. Open _Sublime Text 3_ and hit `Command + Shift + P`;
+2. Choose _Package Control: Install Package_;
+3. Find _TrailingSpaces_ and hit _Enter_.
 
 ##### Update Sublime Text preferences
 
@@ -101,17 +99,15 @@ Make sure you have already installed the _Sublime Package Control_ system.
 
 The DocBlockr package provides creation and code completion of comment blocks.
 
-1. Open _Sublime Text 3_;
-2. Hit `Command + Shift + P`;
-3. Choose _Package Control: Install Package_;
-4. Find _DocBlockr_ and hit _Enter_.
+1. Open _Sublime Text 3_ and hit `Command + Shift + P`;
+2. Choose _Package Control: Install Package_;
+3. Find _DocBlockr_ and hit _Enter_.
 
 ##### Install SublimeLinter (if not already installed)
 
-1. Open _Sublime Text 3_;
-2. Hit `Command + Shift + P`;
-3. Choose _Package Control: Install Package_;
-4. Find _SublimeLinter_ and hit _Enter_.
+1. Open _Sublime Text 3_ and hit `Command + Shift + P`;
+2. Choose _Package Control: Install Package_;
+3. Find _SublimeLinter_ and hit _Enter_.
 
 ##### Install ESLint
 
@@ -130,8 +126,7 @@ The DocBlockr package provides creation and code completion of comment blocks.
 ##### Install SublimeLinter-eslint
 
 1. Make sure you have installed SublimeLinter and eslint;
-2. Open _Sublime Text 3_;
-3. Hit `Command + Shift + P`;
-4. Choose _Package Control: Install Package_;
-5. Find _SublimeLinter-contrib-eslint_ and hit _Enter_.
+2. Open _Sublime Text 3_ and hit `Command + Shift + P`;
+3. Choose _Package Control: Install Package_;
+4. Find _SublimeLinter-contrib-eslint_ and hit _Enter_.
 
