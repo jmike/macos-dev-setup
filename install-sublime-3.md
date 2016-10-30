@@ -1,37 +1,50 @@
 # Install Sublime Text 3
 
-Download and install Sublime Text from [http://www.sublimetext.com/3](http://www.sublimetext.com/3).
+### Install Sublime Text 3
 
-#### Install Package Control
+1. Visit [http://www.sublimetext.com/3](http://www.sublimetext.com/3);
+2. Download the latest OSX build;
+3. Open the downloaded dmg archive and move _Sublime Text 3_ to the _Applications_ folder.
 
-The next step is to install the Package Control system, as it isn't a part of the Sublime Text baseline. This involves cutting and pasting some Python code into the Sublime Text console. You can find further info at [https://packagecontrol.io/installation](https://packagecontrol.io/installation).
+### Enable external packages
 
-#### Install Material theme
+_Package Control_ system is used to install external packages (i.e. add-ons) to Sublime. Unfortunately it's not part of the Sublime Text core distribution. So you need to install it manually.
 
-The easiest way to install is using Sublime Package Control, where the theme is listed as "Material Theme".
+1. Open _Sublime Text 3_;
+2. Hit ``ctrl+` `` to access the console;
+3. Copy paste the appropriate Python code from [https://packagecontrol.io/installation](https://packagecontrol.io/installation) and hit _Enter_.
 
-1. Go to `Sublime Text 3 > Tools > Command Palette` or open Sublime Text 3 and hit `Command + Shift + P`;
-2. Choose _Package Control: Install Package_;
-3. Find _Material Theme_ and hit _Enter_.
+### Install suggested plugins for JavaScript development
 
-#### Install DocBlockr
+##### Install Material Theme for Sublime Text 3
+
+Material theme is on of the most polished themes for _Sublime Text_. The easiest way to install is by using the _Sublime Package Control_ system.
+
+1. Open _Sublime Text 3_;
+2. Go to `Tools > Command Palette` or just hit `Command + Shift + P`;
+3. Choose _Package Control: Install Package_;
+4. Find _Material Theme_ and hit _Enter_.
+
+##### Install DocBlockr
 
 The DocBlockr package provides creation and code completion of comment blocks.
 
-1. Open Sublime Text 3 and hit `Command + Shift + P`;
-2. Choose _Package Control: Install Package_;
-3. Find _DocBlockr_ and hit _Enter_.
+1. Open _Sublime Text 3_;
+2. Hit `Command + Shift + P`;
+3. Choose _Package Control: Install Package_;
+4. Find _DocBlockr_ and hit _Enter_.
 
-#### Install SublimeLinter
+##### Install SublimeLinter
 
-1. Open Sublime Text 3 and hit `Command + Shift + P`;
-2. Choose _Package Control: Install Package_;
-3. Find _SublimeLinter_ and hit _Enter_.
+1. Open _Sublime Text 3_;
+2. Hit `Command + Shift + P`;
+3. Choose _Package Control: Install Package_;
+4. Find _SublimeLinter_ and hit _Enter_.
 
-#### Install eslint
+##### Install ESLint
 
-1. Make sure you have already installed node.js and npm - if not, read the [Install node.js and npm](install-node-npm.md) guide;
-2. Install eslint by typing the following in a terminal:
+1. Make sure you have already installed Node.js and npm - if not, follow the [Install node.js and npm](install-node-npm.md) guide;
+2. Install ESLint by typing the following in a terminal:
 
   ```bash
   sudo npm install -g eslint
@@ -39,35 +52,32 @@ The DocBlockr package provides creation and code completion of comment blocks.
 3. Install eslint-config-airbnb
 
   ```bash
-  sudo npm install -g eslint-config-airbnb babel-eslint
+  sudo npm install -g eslint-config-airbnb eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-import
   ```
 
-#### Install SublimeLinter-eslint
+##### Install SublimeLinter-eslint
 
 1. Make sure you have installed SublimeLinter and eslint;
-2. Open Sublime Text 3 and hit `Command + Shift + P`;
+2. Open _Sublime Text 3_;
+3. Hit `Command + Shift + P`;
+4. Choose _Package Control: Install Package_;
+5. Find _SublimeLinter-contrib-eslint_ and hit _Enter_.
+
+##### Install SideBarEnhancements
+
+1. Open _Sublime Text 3_;
+2. Hit `Command + Shift + P`;
 3. Choose _Package Control: Install Package_;
-4. Find _SublimeLinter-contrib-eslint_ and hit _Enter_.
+4. Find _SideBarEnhancements_ and hit _Enter_.
 
-#### Install TernJS
+##### Install TrailingSpaces
 
-1. Open Sublime Text 3 and hit `Command + Shift + P`;
-2. Choose _Package Control: Install Package_;
-3. Find _TernJS_ and hit _Enter_.
+1. Open _Sublime Text 3_;
+2. Hit `Command + Shift + P`;
+3. Choose _Package Control: Install Package_;
+4. Find _TrailingSpaces_ and hit _Enter_.
 
-#### Install SideBarEnhancements
-
-1. Open Sublime Text 3 and hit `Command + Shift + P`;
-2. Choose _Package Control: Install Package_;
-3. Find _SideBarEnhancements_ and hit _Enter_.
-
-#### Install TrailingSpaces
-
-1. Open Sublime Text 3 and hit `Command + Shift + P`;
-2. Choose _Package Control: Install Package_;
-3. Find _TrailingSpaces_ and hit _Enter_.
-
-#### Configure Sublime Text
+##### Configure Sublime Text
 
 1. Go to `Sublime Text 3 > Preferences > Settings - User`;
 2. Copy past the following settings:
@@ -110,7 +120,7 @@ The DocBlockr package provides creation and code completion of comment blocks.
 }
 	```
 
-#### Make Sublime Text available in terminal
+##### Make Sublime Text available in terminal
 
 Sublime Text 3 ships with a CLI called `subl`. Create a symbolic link to your CLI and you are done.
 
