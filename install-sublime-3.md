@@ -17,7 +17,7 @@ sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/
 You can now open a file from the terminal as follows:
 
 ```bash
-subl file.ext
+subl <file>
 ```
 
 ### Enable external packages
