@@ -19,7 +19,7 @@ Best practices to setup and configure macOS for developers.
 
 ##### Programming Languages & Platforms
 * [Install Node.js & npm](install-node-npm.md)
-* [Install Heroku Toolbelt](install-heroku-toolbelt.md)
+* [Install Heroku CLI](install-heroku-cli.md)
 
 ##### Databases
 * [Install MySQL](install-mysql.md)
