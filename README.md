@@ -1,4 +1,4 @@
-# MacOS-Ninja
+# MacOS-Dev
 
 Best practices to setup and configure macOS for developers.
 
