@@ -1,6 +1,6 @@
 # MacOS-Ninja
 
-Guidelines to setup macOS for ninja developers.
+Best practices to setup and configure macOS for developers.
 
 ### Table of Contents
 
