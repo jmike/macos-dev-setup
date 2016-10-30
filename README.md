@@ -27,5 +27,5 @@ Best practices to setup and configure macOS for developers.
 
 ##### IDEs & Editors
 * [Install Sublime Text 3](install-sublime-3.md)
-* [Configure Sublime Text 3 for JavaScript development](configure-sublime-3-for-js)
+* [Configure Sublime Text 3 for JavaScript development](configure-sublime-3-for-js.md)
 
