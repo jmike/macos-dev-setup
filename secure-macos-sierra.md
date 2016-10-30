@@ -46,17 +46,3 @@ Enabling _Find My Mac_ is optional and mostly makes sense for remote devices, su
 3. Select the Find My Mac checkbox.
 
 If the worst happens and your machine get's stolen, you will be able to track it, remotely lock it, and send messages to its screen via iCloud.com or the _Find My iPhone_ app for iPad/iPhone.
-
-#### Allow Apps from Anywhere
-
-MacOS Sierra prevents executing unsigned apps. This can be very annoying, especially if you are a developer and tend to experiment with new apps on a regular basis.
-
-1. Disable the macOS assessment subsystem;
-
-  ```bash
-  sudo spctl --master-disable
-  ```  
-2. Go to `System Preferences > Security & Privacy`;
-3. Select `Anywhere` under the `Allow apps downloaded from` section.
- 
-Beware! With great power comes great responsibility.
