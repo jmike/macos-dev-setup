@@ -1,4 +1,4 @@
-# MacOS-Dev
+# MacOS-Dev-Setup
 
 Best practices to setup and configure macOS for developers.
 
