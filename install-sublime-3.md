@@ -14,7 +14,7 @@ _Package Control_ system is used to install external packages (i.e. add-ons) to 
 2. Hit ``ctrl+` `` to access the console;
 3. Copy paste the appropriate Python code from [https://packagecontrol.io/installation](https://packagecontrol.io/installation) and hit _Enter_.
 
-### Install suggested plugins for JavaScript development
+### Configure Sublime Text 3
 
 ##### Install Material Theme for Sublime Text 3
 
@@ -39,7 +39,7 @@ Material theme is on of the most polished themes for _Sublime Text_. The easiest
 3. Choose _Package Control: Install Package_;
 4. Find _TrailingSpaces_ and hit _Enter_.
 
-##### Configure Sublime Text
+##### Update Sublime Text preferences
 
 1. Go to `Sublime Text 3 > Preferences > Settings - User`;
 2. Copy past the following settings:
