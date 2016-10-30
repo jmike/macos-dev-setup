@@ -1,6 +1,6 @@
 # Install PostgreSQL
 
-#### Install PostgreSQL server
+### Install PostgreSQL server
 
 The easiest way to install PostgreSQL server on a Mac is by using the infamous postgres app.
 
@@ -13,7 +13,7 @@ The easiest way to install PostgreSQL server on a Mac is by using the infamous p
 
 To start the postgreSQL server all you need to do is run _Postgres.app_, as you would normally run any other application. Notice the postgres icon at the taskbar (top right of your screen) - from here you can stop or configure the postgres server.
 
-#### Install pgAdmin
+### Install pgAdmin
 
 pgAdmin is one of the best PostgreSQL GUI clients.
 

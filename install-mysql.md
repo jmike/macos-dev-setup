@@ -1,6 +1,6 @@
 # Install MySQL
 
-#### Install MySQL Server
+### Install MySQL Server
 
 1. Visit [http://dev.mysql.com/downloads/mysql/](http://dev.mysql.com/downloads/mysql/);
 2. Download the latest .dmg archive;
@@ -12,9 +12,9 @@
   export PATH=${PATH}:/usr/local/mysql/bin
   ```
 
-#### Setup MySQL Preference Pane
+##### Setup MySQL Preference Pane
 
-The _MySQL preference pane_ enables you to start, stop, and control MySQL server within _System Preferences_. 
+The _MySQL preference pane_ enables you to start, stop, and control MySQL server within _System Preferences_.
 
 To install MySQL preference pane follow the instructions here: [http://dev.mysql.com/doc/refman/5.6/en/macosx-installation-prefpane.html](http://dev.mysql.com/doc/refman/5.6/en/macosx-installation-prefpane.html)
 
@@ -23,7 +23,9 @@ Please note: The latest versions of the MySQL installer install the preference p
 1. Go to `System Preferences > MySQL`;
 2. Uncheck the `Automatically Start MySQL Server on Startup` option.
 
-#### Reset your password
+### Reset your password
+
+Please note: This is an important step in order to be able to connect with MySQL Workbench. See [this](http://stackoverflow.com/questions/33467337/reset-mysql-root-password-using-alter-user-statement-after-install-on-mac) related stackoverflow question for further info.
 
 1. Go to `System Preferences > MySQL`;
 2. Make sure the MySQL server is running. If not, start the server;
@@ -32,9 +34,9 @@ Please note: The latest versions of the MySQL installer install the preference p
   ```bash
   mysql --user root --password
   ```
-  
+
   Enter the server password you were given during MySQL server installation.
-  
+
 4. Execute the following SQL command;
 
   ```sql
@@ -44,7 +46,7 @@ Please note: The latest versions of the MySQL installer install the preference p
 5. Enter `quit` to exit the MySQL CLI session;
 6. Store password in a secure location, e.g. [KeePassX](https://www.keepassx.org/).
 
-#### Install MySQL Workbench
+### Install MySQL Workbench
 
 MySQL Workbench is the official MySQL client. It's free, as in beer, and quite powerful.
 
@@ -52,7 +54,7 @@ MySQL Workbench is the official MySQL client. It's free, as in beer, and quite p
 2. Download the latest .dmg archive;
 3. Open the downloaded file and follow instructions.
 
-#### Setup connection within MySQL Workbench to local MySQL server
+##### Setup connection within MySQL Workbench to local MySQL server
 
 1. Run _MySQL Workbench_ that should already be installed in your system;
 2. Go to `Database > Manage Connections...` from the top menu;

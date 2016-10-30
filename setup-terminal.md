@@ -1,6 +1,6 @@
 # Setup Terminal
 
-#### Edit Terminal preferences
+### Edit Terminal preferences
 
 1. Open _Terminal_;
 2. Go to `Preferences > General`;
@@ -11,7 +11,7 @@
 7. Enable the _Antialias text_ option;
 8. Click the _Default_ button at the bottom of the pane.
 
-#### Edit keyboard type speed
+### Edit keyboard type speed
 
 1. Go to `System Settings > Keyboard > Keyboard`;
 2. Drag the _Key Repeat_ slider to the right-most _Fast_;

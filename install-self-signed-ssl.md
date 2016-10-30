@@ -4,7 +4,7 @@ The following settings work on MacOS Yosemite 10.10.4 with MAMP 3.2.1.
 
 In addition, the guide will show you how to make Chrome *44.0.2403.125* Trust the new certificate.
 
-#### Create the SSL certificate
+### Create the SSL certificate
 
 1. Go to the user's root
 
@@ -96,7 +96,7 @@ In addition, the guide will show you how to make Chrome *44.0.2403.125* Trust th
 
 Now, when you open your Chrome you will be informed that you can proceed with viewing the https page. However, there is no easy way to make your Chrome respect your option to trust this certificate so we have to do some work to accomplish that.
 
-####Force Chrome to trust your certificate
+#### Force Chrome to trust your certificate
 
 1. Open your Chrome browser and go to ```https://localhost```. The URL bar you will notice that the lock is red. Double-click on it and a dialogue popup, select the 'Connection' tab (second tab) and click on the link 'Certificate Information'. A new popup appears
 
