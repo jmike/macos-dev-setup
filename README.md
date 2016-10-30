@@ -17,7 +17,7 @@ Best practices to setup and configure macOS for developers.
 * [Install Git](install-git.md)
 
 ##### Programming Languages & Platforms
-* [Install Node.js](install-node-npm.md)
+* [Install Node.js & npm](install-node-npm.md)
 * [Install Heroku Toolbelt](install-heroku-toolbelt.md)
 
 ##### Databases
