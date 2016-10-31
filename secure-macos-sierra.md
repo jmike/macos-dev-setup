@@ -7,7 +7,7 @@
 
 ### Encypt your hard disk
 
-It's imperative to encrypt your hard disk, assuming you haven't already done during setup.
+It's imperative to encrypt your hard disk, assuming you haven't already done so during OS installation.
 
 1. Go to `System Settings > Security & Privacy > FileVault`;
 2. Turn on FileVault; make sure you don't share your encryption key with Apple (beats the purpose of encryption).
