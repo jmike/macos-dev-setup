@@ -10,7 +10,7 @@
 It's imperative to encrypt your hard disk, assuming you haven't already done so during OS installation.
 
 1. Go to `System Settings > Security & Privacy > FileVault`;
-2. Turn on FileVault; make sure you don't share your encryption key with Apple (beats the purpose of encryption).
+2. Turn on FileVault; make sure you don't share your encryption key with Apple (kinda beats the purpose of encryption).
 
 ### Disable Spotlight Suggestions
 
