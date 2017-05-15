@@ -33,3 +33,18 @@ If you are planning to publishing modules to the npm registry you should login w
     ```
 
     You should be able to see your username displayed in the terminal.
+    
+### Working with private modules
+
+1. Append the following to your .bash_profile;
+
+  ```bash
+  export NPM_TOKEN=$(cat ~/.npmrc | awk -F'authToken=' '{print $2}')
+  ```
+
+2. Create a new `/.npmrc` file in the root folder of your project, with the following contents;
+
+  ```bash
+  //registry.npmjs.org/:_authToken=${NPM_TOKEN}
+  ```
+
