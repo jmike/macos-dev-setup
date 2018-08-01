@@ -26,14 +26,17 @@ You might think that by disabling Spotlight Suggestions you are done - you are w
 1. Go to `Safari > Preferences > Search`;
 2. Uncheck the _Include Spotlight Suggestions_ option.
 
-### Enable Google DNS
+### Enable Cloudflare DNS
 
 1. Go to `System Preferences > Network`;
 2. Select _Wi-Fi_ from the left-hand pane and click the _Advanced_ button;
 3. Open the _DNS_ tab;
-4. Click the + button under the DNS Servers and type `8.8.8.8`;
-5. Click and + button (again) and type `8.8.4.4`;
-6. Hit _OK_.
+4. Add the following IP addresses (click the + button under the DNS Servers, repeat where applicable);
+  - 1.1.1.1
+  - 1.0.0.1
+  - 2606:4700:4700::1111
+  - 2606:4700:4700::1001
+5. Hit _OK_.
 
 You might want to repeat the process for your _Ethernet_ interface.
 
