@@ -7,13 +7,19 @@
 3. Execute the dowloaded file and follow instructions;
 4. Verify node.js and npm have been installed.
 
-    ```bash
-    node --version
-    ```
+   ```bash
+   node --version
+   ```
 
-    ```bash
-    npm --version
-    ```
+   ```bash
+   npm --version
+   ```
+
+##### Alternative installation via Homebrew
+
+```bash
+brew install node
+```
 
 ### Login to npm
 
@@ -22,29 +28,28 @@ If you are planning to publishing modules to the npm registry you should login w
 1. Visit [https://www.npmjs.com/signup](https://www.npmjs.com/signup) and create a npm account. Skip this step if you already have a npm account;
 2. Login to npm from your machine;
 
-    ```bash
-    npm login
-    ```
+   ```bash
+   npm login
+   ```
 
 3. Verify you are logged in to npm.
 
-    ```bash
-    npm whoami
-    ```
+   ```bash
+   npm whoami
+   ```
 
-    You should be able to see your username displayed in the terminal.
-    
+   You should be able to see your username displayed in the terminal.
+
 ### Working with private modules
 
 1. Append the following to your .bash_profile;
 
-  ```bash
-  export NPM_TOKEN=$(cat ~/.npmrc | awk -F'authToken=' '{print $2}')
-  ```
+```bash
+export NPM_TOKEN=$(cat ~/.npmrc | awk -F'authToken=' '{print $2}')
+```
 
 2. Create a new `/.npmrc` file in the root folder of your project, with the following contents;
 
-  ```bash
-  //registry.npmjs.org/:_authToken=${NPM_TOKEN}
-  ```
-
+```bash
+//registry.npmjs.org/:_authToken=${NPM_TOKEN}
+```

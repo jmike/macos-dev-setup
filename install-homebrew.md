@@ -1,6 +1,6 @@
 # Install Homebrew
 
-Homebrew is an excellent open-source solution to install dev packages on your Mac.
+Homebrew is an excellent open-source solution to install software packages on your Mac.
 
 ### Quick setup
 

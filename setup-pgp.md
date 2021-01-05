@@ -6,6 +6,12 @@
 2. Download the latest .dmg archive;
 3. Install GPG Suite on your machine.
 
+##### Alternative installation via Homebrew
+
+```bash
+brew install --cask gpg-suite
+```
+
 ##### Verify installation
 
 1. Open a browser.
@@ -20,12 +26,12 @@
 3. Scroll down to the _Text_ section. Locate entries starting with "OpenPGP:". Go through each entry, unchecking and deleting its keyboard shortcut.
 4. Set four new shortcuts, i.e.
 
-| Entry | Shortcut |
-| :------------- |:-------------:|
-| OpenPGP: Decrypt Selection | ⌃⌥⌘- |
-| OpenPGP: Encrypt Selection | ⌃⌥⌘- |
-| OpenPGP: Sign Selection | ⌃⌥⌘[ |
-| OpenPGP: Verify Signature of Selection | ⌃⌥⌘[ |
+| Entry                                  | Shortcut |
+| :------------------------------------- | :------: |
+| OpenPGP: Decrypt Selection             |   ⌃⌥⌘-   |
+| OpenPGP: Encrypt Selection             |   ⌃⌥⌘-   |
+| OpenPGP: Sign Selection                |   ⌃⌥⌘[   |
+| OpenPGP: Verify Signature of Selection |   ⌃⌥⌘[   |
 
 ### Create new PGP Key pair
 
