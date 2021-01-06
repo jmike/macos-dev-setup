@@ -23,7 +23,7 @@
 
 ### Install macOS Big Sur
 
-> Before you proceed with installing macOS please make sure you have backed up your previous settings, keys and data. If you need help to organize your thoughts, refer to our [backup guide](/backup/backup-guide.md).
+> Before you proceed with installing macOS please make sure you have backed up your previous settings, keys and data. If you need help to organize your thoughts, refer to our [backup guide](/backup.md).
 
 1. Plug the USB disk to your machine;
 2. Go to `System Settings > Startup Disk`;

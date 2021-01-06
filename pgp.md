@@ -1,6 +1,8 @@
-# Setup PGP
+# PGP
 
-### Install GPG Suite
+PGP is a suite of encryption tools that allows you to send and receive messages securely. You may use it to communicate via email, IM or other communication tool.
+
+### Installation
 
 1. Visit [https://gpgtools.org/](https://gpgtools.org/);
 2. Download the latest .dmg archive;
@@ -19,7 +21,7 @@ brew install --cask gpg-suite
 3. Select and right click on the text.
 4. You should be able to see several _OpenPGP_ options under the _Services_ menu.
 
-### Set PGP Keyboard shortcuts
+### Keyboard shortcuts
 
 1. Go to _System Preferences_ > _Keyboard_ > _Shortcuts_;
 2. Select _Services_ from the left pane;

@@ -1,6 +1,6 @@
-# Install Node.js & npm
+# Node.js
 
-### Install Node.js & npm
+### Installation
 
 1. Visit [https://nodejs.org/en/download/current](https://nodejs.org/en/download/current);
 2. Download the latest Node.js dmg archive, which comes bundled with the npm client. If you don't know which file to download look for the "macOS Installer";
@@ -42,7 +42,7 @@ If you are planning to publishing modules to the npm registry you should login w
 
 ### Working with private modules
 
-1. Append the following to your .bash_profile;
+1. Append the following to your `~/.bash_profile` or `~/.zshrc`;
 
 ```bash
 export NPM_TOKEN=$(cat ~/.npmrc | awk -F'authToken=' '{print $2}')

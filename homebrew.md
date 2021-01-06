@@ -1,8 +1,8 @@
-# Install Homebrew
+# Homebrew
 
-Homebrew is an excellent open-source solution to install software packages on your Mac.
+Homebrew is an excellent open-source package manager for Mac.
 
-### Quick setup
+### Installation
 
 ```bash
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"

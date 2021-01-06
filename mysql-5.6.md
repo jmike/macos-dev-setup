@@ -1,18 +1,18 @@
-# Install MySQL
+# MySQL 5.6
 
-### Install MySQL Server
+### MySQL Server installation
 
 1. Visit [http://dev.mysql.com/downloads/mysql/](http://dev.mysql.com/downloads/mysql/);
 2. Download the latest .dmg archive;
 3. Open the downloaded file and follow on-screen instructions;
 4. You will receive a prompt window with the MySQL server password - store it in a temporary location;
-5. Append the following to your .bash_profile;
+5. Append the following to your `~/.bash_profile` or `~/.zshrc`;
 
-  ```
-  export PATH=${PATH}:/usr/local/mysql/bin
-  ```
+```
+export PATH=${PATH}:/usr/local/mysql/bin
+```
 
-##### Setup MySQL Preference Pane
+##### MySQL Preference Pane
 
 The _MySQL preference pane_ enables you to start, stop, and control MySQL server within _System Preferences_.
 
@@ -31,22 +31,22 @@ Please note: This is an important step in order to be able to connect with MySQL
 2. Make sure the MySQL server is running. If not, start the server;
 3. Run the following command in a terminal;
 
-  ```bash
-  mysql --user root --password
-  ```
+```bash
+mysql --user root --password
+```
 
-  Enter the server password you were given during MySQL server installation.
+Enter the server password you were given during MySQL server installation.
 
 4. Execute the following SQL command;
 
-  ```sql
-  SET PASSWORD = PASSWORD('<new password/>');
-  ```
+```sql
+SET PASSWORD = PASSWORD('<new password/>');
+```
 
 5. Enter `quit` to exit the MySQL CLI session;
 6. Store password in a secure location, e.g. [KeePassX](https://www.keepassx.org/).
 
-### Install MySQL Workbench
+### MySQL Workbench installation
 
 MySQL Workbench is the official MySQL client. It's free, as in beer, and quite powerful.
 

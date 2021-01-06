@@ -1,17 +1,23 @@
 # MacOS-Dev-Setup
 
-Best practices to setup and configure macOS for developers.
+An opinionated guide to setup and configure macOS for developers.
 
 ### Table of Contents
 
+##### Backup
+
+If you are coming from an existing macOS installation, make sure you have backed up your data and settings before proceeding with any changes.
+
+- [Backup Guide](backup.md)
+
 ##### Operating System
 
-At the time of writing the latest macOS version is Big Sur (11.1).
+At the time of writing the latest macOS release is Big Sur (11.1).
 
 1. [Install macOS Big Sur](/11-big-sur/install-macos-big-sur.md)
 2. [Secure macOS Big Sur](/11-big-sur/secure-macos-big-sur.md)
 
-If you are looking for an older macOS version please consider the following:
+If you are looking for an older macOS version please consider the following guides:
 
 <details>
   <summary>Sierra (10.12)</summary>
@@ -30,26 +36,30 @@ If you are looking for an older macOS version please consider the following:
 
 ##### General
 
-- [Setup the Terminal](setup-terminal.md)
-- [Install Homebrew](install-homebrew.md)
+- [Homebrew](homebrew.md)
+- [Keyboard Configuration](keyboard-config.md)
 
 ##### Privacy
 
-- [Setup PGP](setup-pgp.md)
+- [PGP](pgp.md)
 
 ##### Version Control
 
-- [Install Git](install-git.md)
+- [Git](git.md)
+
+##### Shell
+
+- [zsh](zsh.md)
 
 ##### Programming Languages & Platforms
 
-- [Install Node.js & npm](install-node-npm.md)
+- [Node.js & npm](node-npm.md)
 
 ##### Databases
 
-- [Install MySQL](install-mysql-5.6.md)
-- [Install PostgreSQL](install-postgres.md)
+- [MySQL 5.6](mysql-5.6.md)
+- [PostgreSQL](postgres.md)
 
 ##### IDEs & Editors
 
-- [Install Sublime Text 3](install-sublime-3.md)
+- [Sublime Text 3](sublime-3.md)
