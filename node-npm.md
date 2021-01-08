@@ -1,10 +1,19 @@
 # Node.js
 
+### Node version choice
+
+Before proceeding with installation you need to consider the Node.js version you will be using. Essentially, there are two (2) options to choose from:
+
+1. Long-time-support (LTS);
+2. Latest Node.js version.
+
+If you are new to Node.js, I would suggest to go with the LTS version to avoid incompatibilities with packages (such as strapi).
+
 ### Installation
 
 1. Visit [https://nodejs.org/en/download/current](https://nodejs.org/en/download/current);
-2. Download the latest Node.js dmg archive, which comes bundled with the npm client. If you don't know which file to download look for the "macOS Installer";
-3. Execute the dowloaded file and follow instructions;
+2. Download the dmg archive (`latest` or `LTS` - depending on your preference), which comes bundled with Node.js and the npm client. If you don't know which file to download look for the "macOS Installer";
+3. Execute the downloaded file and follow instructions;
 4. Verify node.js and npm have been installed.
 
    ```bash
@@ -17,8 +26,18 @@
 
 ##### Alternative installation via Homebrew
 
+###### Latest version
+
 ```bash
 brew install node
+```
+
+###### LTS version
+
+At the time of writing the LTS version is `14.x`.
+
+```bash
+brew install node@14
 ```
 
 ### Login to npm
