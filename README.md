@@ -49,6 +49,7 @@ If you are looking for an older macOS version please consider the following guid
 
 ##### Shell
 
+- [iTerm2](iterm2.md)
 - [zsh](zsh.md)
 
 ##### Programming Languages & Platforms
