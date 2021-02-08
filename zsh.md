@@ -47,9 +47,15 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
    Double-click on each file and click "Install".
 
-2. Configure _Apple Terminal_ to use the _Meslo Nerd Font_.
+2. Configure your terminal to use the _Meslo Nerd Font_.
 
-   Open _Terminal → Preferences → Profiles → Text_, click _Change_ under _Font_ and select `MesloLGS NF` family.
+   ###### Apple Terminal
+
+   Open _Terminal → Preferences → Profiles_ and select `MesloLGS NF` from the _Text_ dropdown.
+
+   ###### iTerm2
+
+   Open _iTerm2 → Preferences → Profiles → Text_, click _Change_ under _Font_ and select `MesloLGS NF` family.
 
    I suggest to also change the font-size to `13px`.
 
