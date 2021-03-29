@@ -64,7 +64,7 @@ If you are planning to publishing modules to the npm registry you should login w
 1. Append the following to your `~/.bash_profile` or `~/.zshrc`;
 
 ```bash
-export NPM_TOKEN=$(cat ~/.npmrc | awk -F'authToken=' '{print $2}')
+export NPM_TOKEN=$(cat ~/.npmrc | awk -F'authToken=' '{print $2;exit;}')
 ```
 
 2. Create a new `/.npmrc` file in the root folder of your project, with the following contents;
