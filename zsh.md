@@ -100,3 +100,12 @@ alias ll="ls -la"
 
 1. Open `~/.zshrc` with your favourite editor.
 2. Append the lines above either at the end of the file or at the relevant section.
+
+### Unshare history between tabs
+
+If you prefer NOT to share history between tabs in your terminal, add the following lines to your `~/.zshrc` after `source $ZSH/oh-my-zsh.sh`.
+
+```bash
+unsetopt inc_append_history
+unsetopt share_history
+```
