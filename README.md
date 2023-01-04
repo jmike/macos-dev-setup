@@ -12,12 +12,19 @@ If you are coming from an existing macOS installation, make sure you have backed
 
 ##### Operating System
 
-At the time of writing the latest macOS release is Big Sur (11.1).
+At the time of writing the latest macOS release is Ventura (13.1).
+
+1. [Install macOS Ventura](/13-ventura/install-macos-ventura.md)
+2. [Secure macOS Ventura](/13-ventura/secure-macos-ventura.md)
+
+If you are looking for an older macOS version please consider the following guides:
+
+<details>
+  <summary>Big Sur (11)</summary>
 
 1. [Install macOS Big Sur](/11-big-sur/install-macos-big-sur.md)
 2. [Secure macOS Big Sur](/11-big-sur/secure-macos-big-sur.md)
-
-If you are looking for an older macOS version please consider the following guides:
+</details>
 
 <details>
   <summary>Sierra (10.12)</summary>
